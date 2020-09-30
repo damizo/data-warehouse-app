@@ -9,8 +9,9 @@ then run app in your IDE
 **loader** - Loads data from csv file
 
 ## Properties
-**data.warehouse.file.name** - You can define which file to load, **data.csv** and **data_light.csv** are available.
-Loading with **data.csv** lasts few minutes, so at the beginning I'd recommend running with **data_light.csv** and after first tests run application with **data.csv**.
+**data.warehouse.file.name=** - You can decide which file you want to load, **data.csv** and **data_light.csv** are available.
+Loading with **data.csv** lasts few minutes, so at the beginning I'd recommend running with **data_light.csv** and after first tests 
+change property to **data.csv** to see how search engine deals with more data.
 
 ## Comments
     <configuration>
